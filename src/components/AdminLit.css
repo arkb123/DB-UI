@@ -1,0 +1,26 @@
+.admin-wrapper{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 99px;
+    background: rgba(71, 71, 71, 0.212);
+    box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.3);
+}
+.admin-wrapper h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--yellow-color);
+}
+
+.AdminList-div{
+    display: block !important;
+    margin: auto !important;
+    background: rgb(61, 61, 61);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.3);
+}
+.dataGrid{
+    border: none !important;
+    color: white !important;
+}

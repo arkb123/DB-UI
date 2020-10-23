@@ -1,0 +1,107 @@
+.home_container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    display: flex;
+    padding-bottom: 200px;
+}
+.home-box1{
+    flex: .7;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url('./dataBaseimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.637);
+    min-width: 300px;
+    height: 600px;
+}
+.home-box1 img{
+    width: 100%;
+    z-index: -1;
+}
+.mini-box{
+    width: 70%;
+    height: 500px;
+    min-height: 490px;
+    background: rgba(61, 61, 61, 0.356);
+    background: var(--twitter-color);
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 6px rgba(243, 243, 243, 0.041);
+    
+}
+.mini-box h2{
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.877);
+}
+.mini-box p{
+    text-align: left;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.mini-box-child{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+.mini-box-child-2{
+    border: transparent solid;
+    margin-top: 10px !important;
+    margin: auto;
+    width: 90%;
+    padding: 12px;
+}
+.box{
+    height: 150px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 6px rgba(243, 243, 243, 0.40);
+    background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249, 192, 77, 0.80) 0%, rgba(255,132,0,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,192,77,.80) 0%, rgba(255,132,0,1) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,192,77,.80) 0%, rgba(255,132,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ff8400",GradientType=1);
+}
+.box h3{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+.box-logo{
+    font-size: 90px !important;
+    padding: 10px;
+    display: block !important;
+    margin: auto !important;
+}
+
+.home-box2{
+    flex: .35;
+    min-width: 350px;
+    background: var(--gray-background);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.home-box2 img{
+    width: 100%;
+}
+.Home-button{
+    border-radius: 20px !important;
+    font-weight: 550 !important;
+    box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.671) !important;
+    width: 100px !important;
+}
+.Home-button:hover{
+    background-color: #f400599f !important;
+}

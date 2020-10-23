@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(61, 59, 59);
+    margin: auto;
+    justify-content: space-around;
+    height: 150px;
+    overflow-y: hidden;
+    border: transparent solid;
+}
+.footer-child{
+    width: 40%;
+    height: 180px;
+    margin: 30px;
+}
+.footer-child h2{
+    padding: 20px 10px;
+    color: rgb(151, 151, 151);
+}
+.footer-child p{
+    text-align: left;
+    margin: 5px;
+    color: whitesmoke;
+}
+.footer-child li{
+    list-style: none;
+    padding: 2px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: whitesmoke;
+}

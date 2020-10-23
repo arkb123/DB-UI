@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+body{
+    /* background: rgb(255, 255, 255) !important;
+    background: linear-gradient(0deg, rgb(140, 145, 155) 0%, rgb(228, 228, 228) 100%) !important; */
+    background: rgb(255,255,255);
+background: -moz-linear-gradient(273deg, rgba(255,255,255,1) 0%, rgba(57,60,67,1) 0%, rgba(108,110,115,1) 100%);
+background: -webkit-linear-gradient(273deg, rgba(255,255,255,1) 0%, rgba(57,60,67,1) 0%, rgba(108,110,115,1) 100%);
+background: linear-gradient(273deg, rgba(255,255,255,1) 0%, rgba(57,60,67,1) 0%, rgba(108,110,115,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#6c6e73",GradientType=1);
+    min-height: 100vh;
+    width: 100%;
+    --red-color: #FC544E;
+    --grayBlue-color: #99A6AC;
+    --blue-color: #030c0f;
+    --yellow-color: #f3c717;
+    --teal-color: #3D6367;
+    --gray-background: #e6ecf0;
+};
